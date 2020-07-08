@@ -4,6 +4,8 @@
     <meta charset="UTF-8"/>
     <title>Física Agora</title>
     <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </head>
 <script type="text/javascript" src="_javascript/funcoes.js"></script>
 
@@ -18,22 +20,16 @@
         </hgroup>
 
         <img id="icone" src="_imagens/microscopio.png"/>
-        <nav id="menu">
-            <h1>Menu Principal</h1>
-            <ul type="disc">
-                <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="index.html">Home</a></li>
-                <li>Trabalho e Energia</li>
-                <ul>
-                    <li onmouseover="mudaFoto('_imagens/trabalho-energia.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="specs.html">Propriedades dos Gases</a></li>
-                    <li>Massas e Molas</li> 
-                </ul>
-                <li onmouseover="mudaFoto('_imagens/energia-movimento.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="fotos.html">Energia e Movimento</a></li>
-                <li onmouseover="mudaFoto('_imagens/som-ondas.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="multimidia.html">Som e Ondas</a></li>
-                <li onmouseover="mudaFoto('_imagens/calor-termodinamica.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="fale-conosco.html">Calor e Termodinâmica</a></li>
-                <li onmouseover="mudaFoto('_imagens/luz-radiacao.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="fale-conosco.html">Luz e Radiação</li>
-                <li onmouseover="mudaFoto('_imagens/eletricidade-magnetismo.png')" onmouseout="mudaFoto('_imagens/microscopio.png')"><a href="fale-conosco.html">Eletricidade e Magnetismo</li>
-            </ul>
-        </nav>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Trabalho e Energia
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="fotos.html">Propriedades dos Gases</a>
+              <a class="dropdown-item" href="#">Massas e Molas</a>
+            </div>
+          </div>
 
     </header>
     <p>oiiiiii</p>
