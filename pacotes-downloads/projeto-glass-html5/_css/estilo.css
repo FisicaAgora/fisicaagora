@@ -234,3 +234,27 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
 }
+
+/* Formatação Sub-menu*/
+
+nav#submenu {
+    display: block;
+
+}
+
+nav#submenu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute; 
+    top: 0px;
+    left: 100px;
+
+}
+
+nav#submenu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 20px;
+
+}
