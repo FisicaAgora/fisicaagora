@@ -246,7 +246,7 @@ nav#submenu ul {
     list-style: none;
     text-transform: uppercase;
     position: absolute; 
-    top: 0px;
+    top: -20px;
     left: 100px;
 
 }
@@ -255,6 +255,6 @@ nav#submenu li {
     display: inline-block;
     background-color: #dddddd;
     padding: 10px;
-    margin: 20px;
+    margin: 2px;
 
 }
